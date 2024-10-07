@@ -60,74 +60,72 @@
           ut aliquip ex ea commodo consequat.
         </p>
         <form action="#" method="POST" class="reservation_form">
-          <!-- Nom et Prénom -->
-          <div class="form_group">
-            <label for="name">Nom et Prénom *</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Votre Nom et Prénom"
-              required
-            />
-          </div>
+          <div>
+            <!-- Nom et Prénom -->
+            <div class="form_group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nom et Prénom*"
+                required
+              />
+            </div>
 
-          <!-- Numéro de téléphone -->
-          <div class="form_group">
-            <label for="phone">Numéro de téléphone *</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="Votre numéro de téléphone"
-              pattern="[0-9]{10}"
-              required
-            />
+            <!-- Numéro de téléphone -->
+            <div class="form_group">
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Votre numéro de téléphone"
+                pattern="[0-9]{10}"
+                required
+              />
+            </div>
           </div>
+          <div>
+            <!-- Nombre de personnes -->
+            <div class="form_group">
+              <!-- <label for="people">Nombre de personnes*</label> -->
+              <select id="people" name="people" required>
+                <option value="" disabled selected>Nombre de personnes*</option>
+                <option value="1">1 personne</option>
+                <option value="2">2 personnes</option>
+                <option value="3">3 personnes</option>
+                <option value="4">4 personnes</option>
+                <option value="5">5 personnes</option>
+                <option value="6">6 personnes</option>
+              </select>
+            </div>
 
-          <!-- Nombre de personnes -->
-          <div class="form_group">
-            <label for="people">Nombre de personnes *</label>
-            <select id="people" name="people" required>
-              <option value="" disabled selected>
-                Sélectionner le nombre de personnes
-              </option>
-              <option value="1">1 personne</option>
-              <option value="2">2 personnes</option>
-              <option value="3">3 personnes</option>
-              <option value="4">4 personnes</option>
-              <option value="5">5 personnes</option>
-              <option value="6">6 personnes</option>
-            </select>
+            <!-- Choisir une date -->
+            <div class="form_group">
+              <!-- <label for="date">Choisir une date*</label> -->
+              <select id="date" name="date" required>
+                <option value="" disabled selected>Choisir une date*</option>
+                <option value="2024-10-07">Lundi 7 Octobre 2024</option>
+                <option value="2024-10-08">Mardi 8 Octobre 2024</option>
+                <option value="2024-10-09">Mercredi 9 Octobre 2024</option>
+                <option value="2024-10-10">Jeudi 10 Octobre 2024</option>
+                <option value="2024-10-11">Vendredi 11 Octobre 2024</option>
+              </select>
+            </div>
+
+            <!-- Choisir une heure -->
+            <div class="form_group">
+              <!-- <label for="time">Choisir une heure*</label> -->
+              <select id="time" name="time" required>
+                <option value="" disabled selected>Choisir une heure*</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+              </select>
+            </div>
           </div>
-
-          <!-- Choisir une date -->
-          <div class="form_group">
-            <label for="date">Choisir une date *</label>
-            <select id="date" name="date" required>
-              <option value="" disabled selected>Sélectionner une date</option>
-              <option value="2024-10-07">Lundi 7 Octobre 2024</option>
-              <option value="2024-10-08">Mardi 8 Octobre 2024</option>
-              <option value="2024-10-09">Mercredi 9 Octobre 2024</option>
-              <option value="2024-10-10">Jeudi 10 Octobre 2024</option>
-              <option value="2024-10-11">Vendredi 11 Octobre 2024</option>
-            </select>
-          </div>
-
-          <!-- Choisir une heure -->
-          <div class="form_group">
-            <label for="time">Choisir une heure *</label>
-            <select id="time" name="time" required>
-              <option value="" disabled selected>Sélectionner une heure</option>
-              <option value="12:00">12:00</option>
-              <option value="13:00">13:00</option>
-              <option value="14:00">14:00</option>
-              <option value="15:00">15:00</option>
-              <option value="16:00">16:00</option>
-              <option value="17:00">17:00</option>
-            </select>
-          </div>
-
           <!-- Bouton de soumission -->
           <div class="form_group">
             <button type="submit">Réserver</button>

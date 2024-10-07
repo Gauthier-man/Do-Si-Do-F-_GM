@@ -45,3 +45,61 @@
   margin: auto;
   padding: 6rem;
 }
+
+.reservation_form input {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  margin-bottom: 20px;
+  width: 30%;
+  font-size: 16px;
+  outline: none;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  letter-spacing: 0.6000000238418579px;
+  text-align: left;
+}
+
+.reservation_form input::-webkit-input-placeholder {
+  /* Chrome, Safari, Opera */
+  color: #999999;
+}
+
+.reservation_form input::placeholder {
+  color: white;
+}
+
+#name {
+  color: white;
+}
+
+.reservation_form select {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  margin-bottom: 20px;
+  width: 30%;
+  font-size: 16px;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  letter-spacing: 0.6000000238418579px;
+  text-align: left;
+}
+
+#people {
+  color: white;
+}
+
+#date {
+  color: white;
+}
+
+#time {
+  color: white;
+}
