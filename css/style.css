@@ -1,0 +1,395 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 8%;
+  position: relative;
+  z-index: 1; /* Assure que le contenu du header reste au-dessus */
+  padding: 1rem;
+}
+
+.banner {
+  position: relative; /* Crée un contexte de positionnement pour l'image */
+}
+
+.banner img {
+  position: absolute;
+  top: -200px; /* Ajuster cette valeur pour que l'image monte dans le header */
+  left: 0;
+  width: 100%; /* Image occupe toute la largeur */
+  height: auto;
+  z-index: 0; /* L'image passe sous le header */
+}
+
+/* Assurer que le contenu de la section ne chevauche pas l'image */
+.banner h1,
+.banner button {
+  position: relative;
+  z-index: 1; /* Met le texte et le bouton au-dessus de l'image */
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+}
+
+.banner video {
+  position: absolute;
+  top: -200px; /* Ajuster cette valeur pour que l'image monte dans le header */
+  left: 0;
+  width: 100%; /* Image occupe toute la largeur */
+  height: auto;
+  z-index: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+  color: white;
+}
+
+nav ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon_earth img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+
+  top: 38px;
+}
+
+.banner h1 {
+  color: white;
+  font-family: Italiana;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47.12px;
+  text-align: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 324px;
+}
+
+.mini_bar {
+  width: 280px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  right: 0;
+  top: 173px;
+  margin: auto 3%;
+}
+.mini_bar2 {
+  width: 280px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  margin: auto 3%;
+  top: 173px;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+.restaurant {
+  /* padding: 5rem; */
+  display: flex;
+  padding: 12rem 5rem 5rem;
+}
+
+.picture_restaurant {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+/* .picture_restaurant {
+    display: flex;
+  }
+  .picture_restaurant img {
+    width: 100%;
+  } */
+.restaurant {
+  /* background-image: linear-gradient(
+      rgba(217, 217, 217, 0.9),
+      rgba(217, 217, 217, 0.7)
+    ),
+    url("images/background/4c43d3eea6de23239fc48b3c738394b5.jpg");
+  background-size: cover;
+  background-position: center; */
+}
+.text_restaurant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_restaurant h2 {
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.54px;
+  text-align: left;
+  color: #381505;
+}
+
+.text_restaurant h5 {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.the_boss {
+  display: flex;
+  /* background-image: linear-gradient(
+      rgba(217, 217, 217, 0.9),
+      rgba(217, 217, 217, 0.7)
+    ),
+    url("images\background\4c43d3eea6de23239fc48b3c738394b5.jpg");
+  background-size: cover; */
+  /* background-position: center; */
+}
+
+.the_boss img {
+  width: 600px;
+}
+
+.card_content {
+  display: flex;
+}
+
+.card-speciality img {
+  width: 80%;
+}
+
+.card-speciality h5 {
+  font-family: Italiana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30.63px;
+  letter-spacing: 0.6000000238418579px;
+  text-align: left;
+}
+.speciality {
+  /* background-image: linear-gradient(
+      rgba(217, 217, 217, 0.9),
+      rgba(217, 217, 217, 0.7)
+    ),
+    url("images\background\4c43d3eea6de23239fc48b3c738394b5.jpg");
+  background-size: cover;
+  background-position: center; */
+  padding: 0 5rem;
+  height: 865px;
+}
+
+.text_speciality {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_speciality h2 {
+  font-family: Italiana;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 56.54px;
+  text-align: left;
+  margin-bottom: 0;
+  color: #381505;
+}
+
+.text_speciality h5 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.text_speciality p {
+  width: 50%;
+}
+
+.marks {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 4rem;
+}
+
+.look_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.look_content p {
+  width: 69%;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+}
+
+.look-quia {
+  text-align: center;
+}
+
+.look-quia h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+}
+
+.look-quia h5 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+}
+
+.text_space_center {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 2rem;
+}
+
+.pics_img {
+  background-color: #465d2a;
+  width: 50%;
+  height: 400px;
+}
+
+.bg_color {
+  background-color: black;
+  width: 50%;
+  height: 600px;
+}
+
+.location .bg_color img {
+  width: 121px;
+  height: 106px;
+  object-fit: cover;
+}
+
+.location {
+  display: flex;
+}
+
+.location img {
+  width: 60%;
+  object-fit: cover;
+  height: 600px;
+}
+
+.logo_block {
+  background-color: white;
+  width: 156px;
+  height: 100px;
+}
+
+.location h4 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29.26px;
+  color: white;
+}
+
+.location p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  width: 50%;
+  color: white;
+}
+
+.bg_color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mini {
+  width: 95px;
+  height: 39px;
+  margin: 0;
+}
+
+.line {
+  width: 1px;
+  height: 49px;
+  background-color: white;
+  margin: 0 45px;
+}
+
+.facebook {
+  background-color: white;
+  width: 37px;
+  border-radius: 50%;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-facebook-f {
+  color: black;
+}
+
+.instagram {
+  background-color: white;
+  width: 37px;
+  border-radius: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-instagram {
+  color: black;
+}
+.icon_networks {
+  display: flex;
+  gap: 2rem;
+}
+.block_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block_items ul {
+  display: flex;
+  align-items: center;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.booking {
+  background-color: #d9d9d9;
+  height: 563px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking h1 {
+  font-family: Italiana;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 113.09px;
+  color: #ffffff;
+}
+
+.bar_line {
+  border: 3px solid #ffffff;
+  width: 22%;
+}
+
+.booking_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.form_section {
+  background-color: #444444;
+  color: white;
+  height: 510px;
+
+  text-align: center;
+}
+
+.form_section p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+
+  width: 67%;
+  margin: auto;
+  padding: 6rem;
+}

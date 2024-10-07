@@ -1,0 +1,145 @@
+.line_title {
+  border: solid 2px black;
+  width: 100px;
+  margin: auto;
+}
+
+.banner img {
+  top: -841px;
+}
+
+.leader_chef {
+  display: flex;
+  align-items: center;
+
+  padding: 4rem;
+}
+
+.leader_chef img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.chef_content {
+  text-align: center;
+}
+
+.chef_content h1 {
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.54px;
+}
+
+.chef_content h5 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+}
+.chef_content p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  width: 71%;
+  margin: auto;
+}
+
+.nemo_enim {
+  text-align: center;
+}
+
+.nemo_enim p {
+  font-family: Italiana;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47.12px;
+  text-align: center;
+  width: 77%;
+  margin: auto;
+
+  margin-bottom: 8rem;
+}
+.marks img {
+  margin: 4rem 0 4rem;
+}
+
+.distinctions {
+  display: flex;
+  align-items: center;
+
+  padding: 4rem;
+}
+
+.distinctions img {
+  width: 56%;
+  height: 289px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.distinctions_txt {
+  text-align: center;
+}
+
+.distinctions_txt h1 {
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.54px;
+}
+
+.distinctions_txt h5 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+}
+
+.distinctions_txt p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  width: 38%;
+  margin: auto;
+}
+
+.speciality_nemo {
+  background-color: black;
+  text-align: center;
+}
+
+.speciality_nemo h1 {
+  color: white;
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.54px;
+}
+
+.speciality_nemo h5 {
+  color: white;
+}
+.speciality_nemo img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+
+  margin-bottom: 2rem;
+}
+
+.img_flex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.picture-width {
+  width: 40%;
+}

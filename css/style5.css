@@ -1,0 +1,100 @@
+html {
+    max-width: 1440px;
+    margin: auto;
+  }
+  
+ 
+  
+  body {
+    margin: 0;
+  }
+
+
+.logo_block {
+    width: 12%;
+    height: 100px;
+    background-color: white;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444444;
+  
+    padding: 2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 7rem;
+  
+    list-style: none;
+  }
+  
+  nav ul a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .restaurant_section {
+    background-color: #444444;
+    padding-top: 4rem;
+
+  }
+
+  .restaurant_intro {
+    text-align: center;
+    color: white;
+
+  }
+
+  .restaurant_intro h1 {
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.39px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  
+    
+  }
+
+  .restaurant_intro p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    width: 65%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  
+.title_line {
+    border: solid 2px white;
+    width: 100px;
+    margin: auto; 
+  }
+
+
+  .card {
+    width: 283px;
+    background-color: white;
+    height: 345px;
+  }
+  
+
+  .container_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 78px; */
+    row-gap: 78px;
+    place-items: center;
+  }
+
+  footer {
+    background-color: white;
+    height: 250px;
+  }

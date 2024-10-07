@@ -1,0 +1,164 @@
+.logo_block {
+  width: 12%;
+  height: 100px;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #444444;
+
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 7rem;
+
+  list-style: none;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.map {
+  height: 500px;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map h1 {
+  font-family: Italiana;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 113.09px;
+  color: white;
+}
+
+.mini_bar {
+  width: 280px;
+  border: 2px solid white;
+  /* position: absolute; */
+  right: 0;
+  top: 173px;
+  margin: auto 3%;
+}
+
+.flat_menu {
+  background-color: #444444;
+  color: white;
+
+ 
+}
+
+.menu_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.flat_menu h1 {
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.54px;
+  margin-bottom: 1rem;
+
+
+}
+
+
+.flat_menu h5 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  margin-bottom: 0;
+ 
+
+}
+
+
+.flat_menu p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+
+
+}
+
+.flat_menu span {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+
+
+}
+
+.price_txt {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.line_title {
+  border: solid 2px white;
+  width: 100px;
+  margin: auto; 
+}
+
+
+.line_bar {
+  border: 1px solid #FFFFFF;
+}
+
+
+.menu_content {
+  width: 39%;
+}
+
+.title_menu {
+  text-align: center;
+}
+
+.space {
+  margin-top: 6rem;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  height: 800px;
+  padding: 2rem 6rem;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+footer p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  width: 79%;
+  margin: 0 auto;
+
+}

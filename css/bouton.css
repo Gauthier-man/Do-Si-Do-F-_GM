@@ -1,0 +1,58 @@
+.btn {
+    width: 210px;
+    height: 50px;
+    background: none;
+    border-radius: 0.5rem;
+    border: solid 2px white;
+    color: white;
+  }
+  
+  .btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .btn-midle {
+  text-align: center;
+  padding: 3rem 0 6rem;
+ }
+
+  .btn_green {
+    width: 210px;
+    height: 50px;
+    background-color: #465d2a;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .btn_orange {
+    width: 210px;
+    height: 50px;
+    background-color: #d37533;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  .btn_blue {
+    width: 210px;
+    height: 50px;
+    background-color: #092C4C;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  .btn_border {
+    border: 2px solid white;
+    width: 292px;
+    height: 45px;
+  }
+  

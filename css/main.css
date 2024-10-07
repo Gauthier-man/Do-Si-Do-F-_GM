@@ -1,0 +1,19 @@
+html {
+  max-width: 1440px;
+  margin: auto;
+}
+
+main {
+  /* margin: auto 3%; */
+  background-image: linear-gradient(
+      rgba(217, 217, 217, 0.9),
+      rgba(217, 217, 217, 0.7)
+    ),
+    url("/images/background/4c43d3eea6de23239fc48b3c738394b5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  margin: 0;
+}
