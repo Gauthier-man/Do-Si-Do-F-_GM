@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/main.css" class="css" />
+    <link rel="stylesheet" href="css/style7.css" class="css" />
+    <link rel="stylesheet" href="css/style6.css" class="css" />
+    <link rel="stylesheet" href="css/style5.css" class="css" />
+    <link rel="stylesheet" href="css\bouton.css" class="css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index2.html">Menu 1</a></li>
+          <li><a href="index3.html">Menu 1</a></li>
+          <li><a href="index4.html">Menu 1</a></li>
+        </ul>
+      </nav>
+      <div class="logo_block"></div>
+      <nav>
+        <ul>
+          <li><a href="index5.html">Menu 1</a></li>
+          <li><a href="index6.html">Menu 1</a></li>
+          <li><a href="index8.html">Menu 1</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contacts">
+        <div class="contacts_content">
+          <h1>Contacts</h1>
+          <div id="title_line"></div>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. <br /><br />Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur.
+          </p>
+        </div>
+        <div class="contact_container">
+          <div class="contact_information">
+            <div class="black_list">
+              <h2>Nos contacts directs</h2>
+              <p>Lorem ipsum dolor sin amet</p>
+              <div class="icons_content">
+                <i class="fi fi-ss-phone-call"></i>
+                <h5>0262 12 34 56</h5>
+              </div>
+              <div class="icons_content">
+                <i class="fi fi-ss-envelope"></i>
+                <h5>contact@desidofe.re</h5>
+              </div>
+              <div class="icons_content">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>10 Place Sarda Garriga <br />Saint-Denis, Réunion (97400)</p>
+              </div>
+              <div class="round">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <form action="/submit" method="POST">
+            <div class="name_content">
+              <div class="name_group">
+                <label for="first_name">Nom</label><br />
+                <input type="text" id="first_name" name="first_name" required />
+              </div>
+              <br /><br />
+              <div class="name_group">
+                <label for="last_name">Prénom</label><br />
+                <input type="text" id="last_name" name="last_name" required />
+              </div>
+            </div>
+            <br /><br />
+            <div class="name_content">
+              <div class="name_group">
+                <label for="email">Email</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                /><br /><br />
+              </div>
+              <div id="number_form" class="name_group">
+                <label for="phone">Numéro de téléphone</label><br />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{10}"
+                  placeholder="+1 012 3456 789"
+                  required
+                />
+              </div>
+            </div>
+            <br /><br />
+
+            <p>A quel sujet ?</p>
+            <div class="radio_category">
+              <input
+                type="radio"
+                id="etudiant"
+                name="category"
+                value="etudiant"
+                required
+              />
+              <label for="etudiant">General Inquiry</label><br />
+
+              <input
+                type="radio"
+                id="professionnel"
+                name="category"
+                value="professionnel"
+                required
+              />
+              <label for="professionnel">General Inquiry</label><br />
+
+              <input
+                type="radio"
+                id="retraite"
+                name="category"
+                value="retraite"
+                required
+              />
+              <label for="retraite">General Inquiry</label><br />
+
+              <input
+                type="radio"
+                id="etudiant"
+                name="category"
+                value="etudiant"
+                required
+              />
+              <label for="etudiant">General Inquiry</label>
+            </div>
+            <br />
+            <label for="message">Message</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="40"
+              placeholder="Rédigez votre message ici..."
+              required
+            ></textarea
+            ><br /><br />
+            <div class="btn_end">
+              <button class="btn_orange" type="submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+.contacts h1 {
+  font-family: Italiana;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75.39px;
+}
+
+.contacts p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  /* text-align: center; */
+}
+
+#title_line {
+  border: solid 2px black;
+  width: 100px;
+  margin: auto;
+}
+
+.contacts_content {
+  text-align: center;
+}
+
+.contacts_content h1 {
+  margin-bottom: 1rem;
+}
+
+.contacts_content p {
+  width: 64%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.icons_content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+#message {
+  border: none;
+  border-bottom: 2px solid black;
+  height: 20px;
+  width: 571px;
+}
+
+.black_list {
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  height: 591px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.black_list h2 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.black_list p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.black_list h5 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.round {
+  width: 35px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: auto;
+}
+
+.fa-instagram {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.contacts {
+  height: 1200px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 77%;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.contact_information {
+  width: 38%;
+}
+
+.name_content {
+  display: flex;
+  gap: 2rem;
+}
+
+.radio_category {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.name_group input {
+  width: 261px;
+}
+
+form {
+  padding: 3rem;
+}
+
+.radio_category {
+  margin-bottom: 2rem;
+}
+
+label {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+#number_form {
+  margin-left: 6%;
+}
+
+.btn_end {
+  display: flex;
+  justify-content: end;
+}

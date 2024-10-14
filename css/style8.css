@@ -1,0 +1,12 @@
+.card-speciality {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 78px;
+  place-items: center;
+}
+
+.card-speciality img {
+  width: 400px;
+  height: 380px;
+  object-fit: cover;
+}
